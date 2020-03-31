@@ -10,10 +10,11 @@ module.exports = (formulario) => {
     const mailOptions = {
         from: `”${formulario.nombre} 👻” <${formulario.email}>`,
         to: 'jsvicctor@gmail.com', // Cambia esta parte por el destinatario
-        subject: formulario.asunto,
+        subject: 'Solicitud de contacto',
         html: `
  <strong>Nombre:</strong> ${formulario.nombre} <br/>
  <strong>E-mail:</strong> ${formulario.email} <br/>
+ <strong>E-mail:</strong> ${formulario.numero} <br/>
  <strong>Mensaje:</strong> ${formulario.mensaje}
  `
     };
