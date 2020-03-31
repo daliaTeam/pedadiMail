@@ -14,7 +14,7 @@ module.exports = (formulario) => {
         html: `
  <strong>Nombre:</strong> ${formulario.nombre} <br/>
  <strong>E-mail:</strong> ${formulario.email} <br/>
- <strong>E-mail:</strong> ${formulario.numero} <br/>
+ <strong>Numero Telefonico:</strong> ${formulario.telefono} <br/>
  <strong>Mensaje:</strong> ${formulario.mensaje}
  `
     };
